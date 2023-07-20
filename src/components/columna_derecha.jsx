@@ -37,7 +37,7 @@ const Columna_derecha = () => {
   const [celciusMin_5, setCelciusMin_5] = useState(null)
   const [celciusMax_5, setCelciusMax_5] = useState(null)
 
-  const myParamValue = guardar();
+  let myParamValue = guardar();
   useEffect(() => {
     if (myParamValue === "") {
       myParamValue = "concepcion";
